@@ -1,8 +1,8 @@
 {
-  "name": "json-schema-editor-visual",
+  "name": "json-schema-editor-visual-ideallife",
   "version": "1.0.22",
   "description": "jsonschema editor",
-  "main": "package/index.js",
+  "main": "dist/main.js",
   "license": "MIC",
   "scripts": {
     "start": "ykit s -p 8082",
