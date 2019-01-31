@@ -1,12 +1,12 @@
 {
   "name": "json-schema-editor-visual-ideallife",
-  "version": "1.0.22",
+  "version": "1.0.24",
   "description": "jsonschema editor",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "license": "MIC",
   "scripts": {
     "start": "ykit s -p 8082",
-    "build": "webpack"
+    "build": "babel package -d dist --copy-files"
   },
   "dependencies": {
     "antd": "^3.1.6",
